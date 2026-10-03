@@ -1,33 +1,13 @@
 // Offline support: everything the app needs is saved on the phone on first open.
 // To push an update (e.g. a new timetable), change VERSION and re-upload the folder.
-const VERSION = 'plan-v1';
+const VERSION = 'plan-v2';
 const FILES = [
   './',
   'index.html',
   'manifest.webmanifest',
-  'icons/apple-touch-icon.png',
-  'icons/icon-192.png',
-  'icons/icon-512.png',
-  'fonts/bricolage-grotesque-latin-ext-600-normal.woff2',
-  'fonts/bricolage-grotesque-latin-600-normal.woff2',
-  'fonts/bricolage-grotesque-latin-ext-700-normal.woff2',
-  'fonts/bricolage-grotesque-latin-700-normal.woff2',
-  'fonts/bricolage-grotesque-latin-ext-800-normal.woff2',
-  'fonts/bricolage-grotesque-latin-800-normal.woff2',
-  'fonts/figtree-latin-ext-400-normal.woff2',
-  'fonts/figtree-latin-400-normal.woff2',
-  'fonts/figtree-latin-ext-500-normal.woff2',
-  'fonts/figtree-latin-500-normal.woff2',
-  'fonts/figtree-latin-ext-600-normal.woff2',
-  'fonts/figtree-latin-600-normal.woff2',
-  'fonts/figtree-latin-ext-700-normal.woff2',
-  'fonts/figtree-latin-700-normal.woff2',
-  'fonts/ibm-plex-mono-latin-ext-400-normal.woff2',
-  'fonts/ibm-plex-mono-latin-400-normal.woff2',
-  'fonts/ibm-plex-mono-latin-ext-500-normal.woff2',
-  'fonts/ibm-plex-mono-latin-500-normal.woff2',
-  'fonts/ibm-plex-mono-latin-ext-600-normal.woff2',
-  'fonts/ibm-plex-mono-latin-600-normal.woff2'
+  'apple-touch-icon.png',
+  'icon-192.png',
+  'icon-512.png'
 ];
 
 self.addEventListener('install', e => {
