@@ -1,0 +1,17 @@
+{
+  "name": "Plan zajęć – Pedagogika A3 K4 L5",
+  "short_name": "Plan zajęć",
+  "description": "Tygodniowy plan zajęć: Pedagogika, I rok, grupy A3, K4, L5, semestr zimowy 2026/27.",
+  "lang": "pl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#EDF0F4",
+  "theme_color": "#EDF0F4",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
