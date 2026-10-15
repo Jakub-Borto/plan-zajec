@@ -1,6 +1,6 @@
 // Offline support: everything the app needs is saved on the phone on first open.
 // To push an update (e.g. a new timetable), change VERSION and re-upload the folder.
-const VERSION = 'plan-v2';
+const VERSION = 'plan-v3';
 const FILES = [
   './',
   'index.html',
